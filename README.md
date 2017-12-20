@@ -1,9 +1,11 @@
+```
 rails generate rspec:install
 bundle binstub rspec-core
 bin/rspec
 rails generate model user username:string
 bin/rake db:migrate RAILS_ENV=test
 bin/rspec
+```
 ```
 Pending:
   User add some examples to (or delete) /Users/ming/src/rails/rspec-rails-app/spec/models/user_spec.rb
